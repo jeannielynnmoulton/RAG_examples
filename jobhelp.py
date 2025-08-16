@@ -2,7 +2,6 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from llama_index.core.agent.workflow import FunctionAgent
 from llama_index.llms.openai import OpenAI
 import asyncio
-import os
 
 # Set OPENAI_API_KEY env variable
 # Done in ~/.zshrc

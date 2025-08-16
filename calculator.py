@@ -21,7 +21,7 @@ def add(a: float, b: float) -> float:
 agent = FunctionAgent(
     tools=[multiply],
     llm=OpenAI(model="gpt-4o-mini"),
-    system_prompt="You are a helpful assistant that can multiply or add two numbers.",
+    system_prompt="You are a helpful assistant that can multiply or add two numbers. You need to interpret the expression they enter.",
 )
 
 
