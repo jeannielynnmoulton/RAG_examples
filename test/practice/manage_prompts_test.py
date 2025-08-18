@@ -1,5 +1,5 @@
 import unittest
-from practice.ManagePrompts import ManagePrompts
+from python_code_practice.ManagePrompts import ManagePrompts
 
 class ManagePromptsTest(unittest.TestCase):
     def test_single_word_appears_once(self):
