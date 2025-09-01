@@ -11,6 +11,10 @@ tree-sitter-language-pack = "*"
 llama-index-readers-web = "*"
 stopwords = "*"
 html2text = "*"
+chromadb = "*"
+llama-index-vector-stores-chroma = "*"
+llama-index-embeddings-huggingface = "*"
+rich = "*"
 
 [dev-packages]
 pytest = "*"
